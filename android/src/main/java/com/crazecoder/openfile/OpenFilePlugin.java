@@ -126,6 +126,7 @@ public class OpenFilePlugin implements MethodCallHandler {
             case "docx":
                 return "application/vnd.openxmlformats-officedocument.wordprocessingml.document";
             case "xls":
+            case "csv":
                 return "application/vnd.ms-excel";
             case "xlsx":
                 return "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
