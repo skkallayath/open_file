@@ -52,7 +52,7 @@ public class OpenFilePlugin implements MethodCallHandler, PluginRegistry.Request
         final MethodChannel channel = new MethodChannel(registrar.messenger(), "open_file");
         OpenFilePlugin plugin = new OpenFilePlugin(registrar.context(), registrar.activity());
         channel.setMethodCallHandler(plugin);
-        registrar.addRequestPermissionsResultListener(plugin);
+        // registrar.addRequestPermissionsResultListener(plugin);
 
     }
 
